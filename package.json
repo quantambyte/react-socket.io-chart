@@ -1,0 +1,36 @@
+{
+  "name": "react-socket.io-chart",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:client & npm run start:server",
+    "start:client": "parcel src/index.html",
+    "start:server": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzair-asif/react-socket.io-chart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzair-asif/react-socket.io-chart/issues"
+  },
+  "homepage": "https://github.com/uzair-asif/react-socket.io-chart#readme",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "os-utils": "^0.0.14",
+    "parcel": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.1.14",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
